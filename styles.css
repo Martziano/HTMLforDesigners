@@ -1,0 +1,52 @@
+html, 
+body{
+    font-family: helvetica;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+h1{
+    font-size: 32px;
+}
+.modal{
+    width: 100%;
+    background-color: red;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modal div{
+    width: 33%;
+    height: 100px;
+    float: left;
+    background-color: blue;
+}
+
+#noFloat{
+    clear: both;
+}
+
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+#container a{
+    color: #f98f4f;
+}
+
+#container .navLink{
+    color: blue;
+}
